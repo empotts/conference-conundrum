@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+const fbsTeams = csvtoarray('logo_ref.csv');
 
 
 
