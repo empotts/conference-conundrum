@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 
 function csvToArray(csvFile) {
     const csvData = fs.readFileSync(csvFile, 'utf-8');
@@ -14,8 +13,12 @@ function csvToArray(csvFile) {
             continue;
         }
         const obj = {};
-        obj['school'] = rowData[0] ? rowData[0].trim() : '';
-        const school = obj['school'];
+        // Assuming 'school' field is present in the CSV
+        
+        
+        
+        const school = rowData[0] ? rowData[0].trim() : '';
+        obj['school'] = school;
         const logoPath = 'logos/' + school.replace(/\s+/g, ' ') + '.png';
         obj['logoPath'] = logoPath;
         obj['conference'] = '';
@@ -25,7 +28,7 @@ function csvToArray(csvFile) {
     return dataArray;
 }
 
-// Example usage:
-const csvFile = 'logo_ref.csv'; // Replace with your CSV file path
-const arrayOfObjects = csvToArray(csvFile);
-console.log(arrayOfObjects);
+let fbsTeams = csvToArray('src/logo_ref.csv');
+console.log(fbsTeams);
+const jsonContent = JSON.stringify(fbsTeams);
+fs.writeFileSync('fbsTeams.json', jsonContent);
