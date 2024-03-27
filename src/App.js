@@ -12,9 +12,18 @@ import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
 
 
 function App() {
+  const [teams, setTeams] = useState(fbsTeams);
+
+  const handleOnDragEnd = (result) => {
+    if (!result.destination) return;
+    const items = Array.from(teams);
+    const [reorderedItem] = items.splice(result.source.index, 1);
+    items.splice(result.destination.index, 0, reorderedItem);
+    setTeams(items);
+  }
 
 
- 
+
 
 
 
@@ -23,12 +32,13 @@ function App() {
   return (
     <div className="App">
 
+
       <h1>FBS Teams</h1>
-      <DragDropContext >
+      <DragDropContext onDragEnd={handleOnDragEnd}>
         <Droppable droppableId="teams">
           {(provided) => (
             <ul className="teams" {...provided.droppableProps} ref={provided.innerRef}>
-              {fbsTeams.map(({ school, logoPath, conference }, index) => {
+              {teams.map(({ school, logoPath }, index) => {
                 return (
                   <Draggable key={school} draggableId={school} index={index}>
                     {(provided) => (
@@ -47,8 +57,8 @@ function App() {
               {provided.placeholder}
 
             </ul>
-)}
-          </Droppable>
+          )}
+        </Droppable>
       </DragDropContext>
     </div>
   );
