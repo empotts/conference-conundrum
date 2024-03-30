@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drag and Drop Football Teams</title>
+    <style>
+        /* Add your CSS styles here */
+        #columns {
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .team {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Drag and Drop Football Teams</h1>
+    </header>
+    <main>
+        <button id="addColumn">Add Column</button>
+        <div id="columns">
+            <div class="column">
+                <input type="text" class="column-name" value="Conference 1">
+                <div class="teams"></div>
+            </div>
+        </div>
+        <div id="teams">
+            <!-- Add your football teams here -->
+            <div class="team" draggable="true" id="team1">Team 1</div>
+            <div class="team" draggable="true" id="team2">Team 2</div>
+            <div class="team" draggable="true" id="team3">Team 3</div>
+            <div class="team" draggable="true" id="team4">Team 4</div>
+            <div class="team" draggable="true" id="team5">Team 5</div>
+            <div class="team" draggable="true" id="team6">Team 6</div>
+            <div class="team" draggable="true" id="team7">Team 7</div>
+            <div class="team" draggable="true" id="team8">Team 8</div>
+            <!-- ... -->
+        </div>
+    </main>
+    <footer>
+        <!-- Add your footer here -->
+    </footer>
+    <script>
+        // Add your JavaScript code here
+        document.getElementById('addColumn').addEventListener('click', function () {
+            var column = document.createElement('div');
+            column.className = 'column';
+            column.innerHTML = '<input type="text" class="column-name" value="New Conference"><div class="teams"></div>';
+            document.getElementById('columns').appendChild(column);
+            addDragEventsToColumns();
+        });
+
+        var teams = document.getElementsByClassName('team');
+        for (var i = 0; i < teams.length; i++) {
+            teams[i].addEventListener('dragstart', function (event) {
+                event.dataTransfer.setData('text/plain', event.target.id);
+            });
+        }
+
+        function addDragEventsToColumns() {
+            var columns = document.getElementsByClassName('column');
+            for (var i = 0; i < columns.length; i++) {
+                var teamsDiv = columns[i].getElementsByClassName('teams')[0];
+
+                teamsDiv.addEventListener('dragover', function (event) {
+                    event.preventDefault();
+                });
+
+                teamsDiv.addEventListener('drop', function (event) {
+                    event.preventDefault();
+                    var data = event.dataTransfer.getData('text/plain');
+                    var team = document.getElementById(data);
+                    event.target.appendChild(team);
+                });
+            }
+        }
+        teamsDiv.addEventListener('drop', function (event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData('text/plain');
+            var team = document.getElementById(data);
+
+            var target = event.target;
+            while (target && target.className !== 'teams') {
+                target = target.parentNode;
+            }
+
+            if (target) {
+                target.appendChild(team);
+            }
+        });
+
+        addDragEventsToColumns();
+    </script>
+</body>
+
+</html>

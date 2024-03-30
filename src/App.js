@@ -24,11 +24,6 @@ function App() {
 
 
 
-
-
-
-
-
   return (
     <div className="App">
 
@@ -38,11 +33,12 @@ function App() {
         <Droppable droppableId="teams">
           {(provided) => (
             <ul className="teams" {...provided.droppableProps} ref={provided.innerRef}>
-              {teams.map(({ school, logoPath }, index) => {
+              {teams.map(({ school, logoPath, id }, index) => {
+                //console.log(school,id, index);
                 return (
-                  <Draggable key={school} draggableId={school} index={index}>
+                  <Draggable key={id} draggableId={id} index={index}>
                     {(provided) => (
-                      <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
+                      <li id={id} ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                         <div className="team-thumb">
                           <img src={'/' + logoPath} alt={`${school} Thumb`} />
                         </div>

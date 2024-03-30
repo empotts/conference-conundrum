@@ -1,1 +1,788 @@
-[{"school":"Air Force","logoPath":"logos/Air Force.png","conference":""},{"school":"Akron","logoPath":"logos/Akron.png","conference":""},{"school":"Alabama","logoPath":"logos/Alabama.png","conference":""},{"school":"Appalachian State","logoPath":"logos/Appalachian State.png","conference":""},{"school":"Arizona","logoPath":"logos/Arizona.png","conference":""},{"school":"Arizona State","logoPath":"logos/Arizona State.png","conference":""},{"school":"Arkansas","logoPath":"logos/Arkansas.png","conference":""},{"school":"Arkansas State","logoPath":"logos/Arkansas State.png","conference":""},{"school":"Army","logoPath":"logos/Army.png","conference":""},{"school":"Auburn","logoPath":"logos/Auburn.png","conference":""},{"school":"Ball State","logoPath":"logos/Ball State.png","conference":""},{"school":"Baylor","logoPath":"logos/Baylor.png","conference":""},{"school":"Boise State","logoPath":"logos/Boise State.png","conference":""},{"school":"Boston College","logoPath":"logos/Boston College.png","conference":""},{"school":"Bowling Green","logoPath":"logos/Bowling Green.png","conference":""},{"school":"Buffalo","logoPath":"logos/Buffalo.png","conference":""},{"school":"BYU","logoPath":"logos/BYU.png","conference":""},{"school":"California","logoPath":"logos/California.png","conference":""},{"school":"Central Michigan","logoPath":"logos/Central Michigan.png","conference":""},{"school":"Charlotte","logoPath":"logos/Charlotte.png","conference":""},{"school":"Cincinnati","logoPath":"logos/Cincinnati.png","conference":""},{"school":"Clemson","logoPath":"logos/Clemson.png","conference":""},{"school":"Coastal Carolina","logoPath":"logos/Coastal Carolina.png","conference":""},{"school":"Colorado","logoPath":"logos/Colorado.png","conference":""},{"school":"Colorado State","logoPath":"logos/Colorado State.png","conference":""},{"school":"Connecticut","logoPath":"logos/Connecticut.png","conference":""},{"school":"Duke","logoPath":"logos/Duke.png","conference":""},{"school":"East Carolina","logoPath":"logos/East Carolina.png","conference":""},{"school":"Eastern Michigan","logoPath":"logos/Eastern Michigan.png","conference":""},{"school":"Florida","logoPath":"logos/Florida.png","conference":""},{"school":"Florida Atlantic","logoPath":"logos/Florida Atlantic.png","conference":""},{"school":"Florida International","logoPath":"logos/Florida International.png","conference":""},{"school":"Florida State","logoPath":"logos/Florida State.png","conference":""},{"school":"Fresno State","logoPath":"logos/Fresno State.png","conference":""},{"school":"Georgia","logoPath":"logos/Georgia.png","conference":""},{"school":"Georgia Southern","logoPath":"logos/Georgia Southern.png","conference":""},{"school":"Georgia State","logoPath":"logos/Georgia State.png","conference":""},{"school":"Georgia Tech","logoPath":"logos/Georgia Tech.png","conference":""},{"school":"Hawai'i","logoPath":"logos/Hawai'i.png","conference":""},{"school":"Houston","logoPath":"logos/Houston.png","conference":""},{"school":"Illinois","logoPath":"logos/Illinois.png","conference":""},{"school":"Indiana","logoPath":"logos/Indiana.png","conference":""},{"school":"Iowa","logoPath":"logos/Iowa.png","conference":""},{"school":"Iowa State","logoPath":"logos/Iowa State.png","conference":""},{"school":"James Madison","logoPath":"logos/James Madison.png","conference":""},{"school":"Kansas","logoPath":"logos/Kansas.png","conference":""},{"school":"Kansas State","logoPath":"logos/Kansas State.png","conference":""},{"school":"Kent State","logoPath":"logos/Kent State.png","conference":""},{"school":"Kentucky","logoPath":"logos/Kentucky.png","conference":""},{"school":"Liberty","logoPath":"logos/Liberty.png","conference":""},{"school":"Louisiana","logoPath":"logos/Louisiana.png","conference":""},{"school":"Louisiana Monroe","logoPath":"logos/Louisiana Monroe.png","conference":""},{"school":"Louisiana Tech","logoPath":"logos/Louisiana Tech.png","conference":""},{"school":"Louisville","logoPath":"logos/Louisville.png","conference":""},{"school":"LSU","logoPath":"logos/LSU.png","conference":""},{"school":"Marshall","logoPath":"logos/Marshall.png","conference":""},{"school":"Maryland","logoPath":"logos/Maryland.png","conference":""},{"school":"Memphis","logoPath":"logos/Memphis.png","conference":""},{"school":"Miami","logoPath":"logos/Miami.png","conference":""},{"school":"Miami (OH)","logoPath":"logos/Miami (OH).png","conference":""},{"school":"Michigan","logoPath":"logos/Michigan.png","conference":""},{"school":"Michigan State","logoPath":"logos/Michigan State.png","conference":""},{"school":"Middle Tennessee","logoPath":"logos/Middle Tennessee.png","conference":""},{"school":"Minnesota","logoPath":"logos/Minnesota.png","conference":""},{"school":"Mississippi State","logoPath":"logos/Mississippi State.png","conference":""},{"school":"Missouri","logoPath":"logos/Missouri.png","conference":""},{"school":"Navy","logoPath":"logos/Navy.png","conference":""},{"school":"NC State","logoPath":"logos/NC State.png","conference":""},{"school":"Nebraska","logoPath":"logos/Nebraska.png","conference":""},{"school":"Nevada","logoPath":"logos/Nevada.png","conference":""},{"school":"New Mexico","logoPath":"logos/New Mexico.png","conference":""},{"school":"New Mexico State","logoPath":"logos/New Mexico State.png","conference":""},{"school":"North Carolina","logoPath":"logos/North Carolina.png","conference":""},{"school":"Northern Illinois","logoPath":"logos/Northern Illinois.png","conference":""},{"school":"North Texas","logoPath":"logos/North Texas.png","conference":""},{"school":"Northwestern","logoPath":"logos/Northwestern.png","conference":""},{"school":"Notre Dame","logoPath":"logos/Notre Dame.png","conference":""},{"school":"Ohio","logoPath":"logos/Ohio.png","conference":""},{"school":"Ohio State","logoPath":"logos/Ohio State.png","conference":""},{"school":"Oklahoma","logoPath":"logos/Oklahoma.png","conference":""},{"school":"Oklahoma State","logoPath":"logos/Oklahoma State.png","conference":""},{"school":"Old Dominion","logoPath":"logos/Old Dominion.png","conference":""},{"school":"Ole Miss","logoPath":"logos/Ole Miss.png","conference":""},{"school":"Oregon","logoPath":"logos/Oregon.png","conference":""},{"school":"Oregon State","logoPath":"logos/Oregon State.png","conference":""},{"school":"Penn State","logoPath":"logos/Penn State.png","conference":""},{"school":"Pittsburgh","logoPath":"logos/Pittsburgh.png","conference":""},{"school":"Purdue","logoPath":"logos/Purdue.png","conference":""},{"school":"Rice","logoPath":"logos/Rice.png","conference":""},{"school":"Rutgers","logoPath":"logos/Rutgers.png","conference":""},{"school":"San Diego State","logoPath":"logos/San Diego State.png","conference":""},{"school":"San José State","logoPath":"logos/San José State.png","conference":""},{"school":"SMU","logoPath":"logos/SMU.png","conference":""},{"school":"South Alabama","logoPath":"logos/South Alabama.png","conference":""},{"school":"South Carolina","logoPath":"logos/South Carolina.png","conference":""},{"school":"Southern Mississippi","logoPath":"logos/Southern Mississippi.png","conference":""},{"school":"South Florida","logoPath":"logos/South Florida.png","conference":""},{"school":"Stanford","logoPath":"logos/Stanford.png","conference":""},{"school":"Syracuse","logoPath":"logos/Syracuse.png","conference":""},{"school":"TCU","logoPath":"logos/TCU.png","conference":""},{"school":"Temple","logoPath":"logos/Temple.png","conference":""},{"school":"Tennessee","logoPath":"logos/Tennessee.png","conference":""},{"school":"Texas","logoPath":"logos/Texas.png","conference":""},{"school":"Texas A&M","logoPath":"logos/Texas A&M.png","conference":""},{"school":"Texas State","logoPath":"logos/Texas State.png","conference":""},{"school":"Texas Tech","logoPath":"logos/Texas Tech.png","conference":""},{"school":"Toledo","logoPath":"logos/Toledo.png","conference":""},{"school":"Troy","logoPath":"logos/Troy.png","conference":""},{"school":"Tulane","logoPath":"logos/Tulane.png","conference":""},{"school":"Tulsa","logoPath":"logos/Tulsa.png","conference":""},{"school":"UAB","logoPath":"logos/UAB.png","conference":""},{"school":"UCF","logoPath":"logos/UCF.png","conference":""},{"school":"UCLA","logoPath":"logos/UCLA.png","conference":""},{"school":"UMass","logoPath":"logos/UMass.png","conference":""},{"school":"UNLV","logoPath":"logos/UNLV.png","conference":""},{"school":"USC","logoPath":"logos/USC.png","conference":""},{"school":"Utah","logoPath":"logos/Utah.png","conference":""},{"school":"Utah State","logoPath":"logos/Utah State.png","conference":""},{"school":"UTEP","logoPath":"logos/UTEP.png","conference":""},{"school":"UT San Antonio","logoPath":"logos/UT San Antonio.png","conference":""},{"school":"Vanderbilt","logoPath":"logos/Vanderbilt.png","conference":""},{"school":"Virginia","logoPath":"logos/Virginia.png","conference":""},{"school":"Virginia Tech","logoPath":"logos/Virginia Tech.png","conference":""},{"school":"Wake Forest","logoPath":"logos/Wake Forest.png","conference":""},{"school":"Washington","logoPath":"logos/Washington.png","conference":""},{"school":"Washington State","logoPath":"logos/Washington State.png","conference":""},{"school":"Western Kentucky","logoPath":"logos/Western Kentucky.png","conference":""},{"school":"Western Michigan","logoPath":"logos/Western Michigan.png","conference":""},{"school":"West Virginia","logoPath":"logos/West Virginia.png","conference":""},{"school":"Wisconsin","logoPath":"logos/Wisconsin.png","conference":""},{"school":"Wyoming","logoPath":"logos/Wyoming.png","conference":""}]
+[
+    {
+        "school": "Air Force",
+        "logoPath": "logos/Air Force.png",
+        "conference": "",
+        "id": "air-force"
+    },
+    {
+        "school": "Akron",
+        "logoPath": "logos/Akron.png",
+        "conference": "",
+        "id": "akron"
+    },
+    {
+        "school": "Alabama",
+        "logoPath": "logos/Alabama.png",
+        "conference": "",
+        "id": "alabama"
+    },
+    {
+        "school": "Appalachian State",
+        "logoPath": "logos/Appalachian State.png",
+        "conference": "",
+        "id": "appalachian-state"
+    },
+    {
+        "school": "Arizona",
+        "logoPath": "logos/Arizona.png",
+        "conference": "",
+        "id": "arizona"
+    },
+    {
+        "school": "Arizona State",
+        "logoPath": "logos/Arizona State.png",
+        "conference": "",
+        "id": "arizona-state"
+    },
+    {
+        "school": "Arkansas",
+        "logoPath": "logos/Arkansas.png",
+        "conference": "",
+        "id": "arkansas"
+    },
+    {
+        "school": "Arkansas State",
+        "logoPath": "logos/Arkansas State.png",
+        "conference": "",
+        "id": "arkansas-state"
+    },
+    {
+        "school": "Army",
+        "logoPath": "logos/Army.png",
+        "conference": "",
+        "id": "army"
+    },
+    {
+        "school": "Auburn",
+        "logoPath": "logos/Auburn.png",
+        "conference": "",
+        "id": "auburn"
+    },
+    {
+        "school": "Ball State",
+        "logoPath": "logos/Ball State.png",
+        "conference": "",
+        "id": "ball-state"
+    },
+    {
+        "school": "Baylor",
+        "logoPath": "logos/Baylor.png",
+        "conference": "",
+        "id": "baylor"
+    },
+    {
+        "school": "Boise State",
+        "logoPath": "logos/Boise State.png",
+        "conference": "",
+        "id": "boise-state"
+    },
+    {
+        "school": "Boston College",
+        "logoPath": "logos/Boston College.png",
+        "conference": "",
+        "id": "boston-college"
+    },
+    {
+        "school": "Bowling Green",
+        "logoPath": "logos/Bowling Green.png",
+        "conference": "",
+        "id": "bowling-green"
+    },
+    {
+        "school": "Buffalo",
+        "logoPath": "logos/Buffalo.png",
+        "conference": "",
+        "id": "buffalo"
+    },
+    {
+        "school": "BYU",
+        "logoPath": "logos/BYU.png",
+        "conference": "",
+        "id": "byu"
+    },
+    {
+        "school": "California",
+        "logoPath": "logos/California.png",
+        "conference": "",
+        "id": "california"
+    },
+    {
+        "school": "Central Michigan",
+        "logoPath": "logos/Central Michigan.png",
+        "conference": "",
+        "id": "central-michigan"
+    },
+    {
+        "school": "Charlotte",
+        "logoPath": "logos/Charlotte.png",
+        "conference": "",
+        "id": "charlotte"
+    },
+    {
+        "school": "Cincinnati",
+        "logoPath": "logos/Cincinnati.png",
+        "conference": "",
+        "id": "cincinnati"
+    },
+    {
+        "school": "Clemson",
+        "logoPath": "logos/Clemson.png",
+        "conference": "",
+        "id": "clemson"
+    },
+    {
+        "school": "Coastal Carolina",
+        "logoPath": "logos/Coastal Carolina.png",
+        "conference": "",
+        "id": "coastal-carolina"
+    },
+    {
+        "school": "Colorado",
+        "logoPath": "logos/Colorado.png",
+        "conference": "",
+        "id": "colorado"
+    },
+    {
+        "school": "Colorado State",
+        "logoPath": "logos/Colorado State.png",
+        "conference": "",
+        "id": "colorado-state"
+    },
+    {
+        "school": "Connecticut",
+        "logoPath": "logos/Connecticut.png",
+        "conference": "",
+        "id": "connecticut"
+    },
+    {
+        "school": "Duke",
+        "logoPath": "logos/Duke.png",
+        "conference": "",
+        "id": "duke"
+    },
+    {
+        "school": "East Carolina",
+        "logoPath": "logos/East Carolina.png",
+        "conference": "",
+        "id": "east-carolina"
+    },
+    {
+        "school": "Eastern Michigan",
+        "logoPath": "logos/Eastern Michigan.png",
+        "conference": "",
+        "id": "eastern-michigan"
+    },
+    {
+        "school": "Florida",
+        "logoPath": "logos/Florida.png",
+        "conference": "",
+        "id": "florida"
+    },
+    {
+        "school": "Florida Atlantic",
+        "logoPath": "logos/Florida Atlantic.png",
+        "conference": "",
+        "id": "florida-atlantic"
+    },
+    {
+        "school": "Florida International",
+        "logoPath": "logos/Florida International.png",
+        "conference": "",
+        "id": "florida-international"
+    },
+    {
+        "school": "Florida State",
+        "logoPath": "logos/Florida State.png",
+        "conference": "",
+        "id": "florida-state"
+    },
+    {
+        "school": "Fresno State",
+        "logoPath": "logos/Fresno State.png",
+        "conference": "",
+        "id": "fresno-state"
+    },
+    {
+        "school": "Georgia",
+        "logoPath": "logos/Georgia.png",
+        "conference": "",
+        "id": "georgia"
+    },
+    {
+        "school": "Georgia Southern",
+        "logoPath": "logos/Georgia Southern.png",
+        "conference": "",
+        "id": "georgia-southern"
+    },
+    {
+        "school": "Georgia State",
+        "logoPath": "logos/Georgia State.png",
+        "conference": "",
+        "id": "georgia-state"
+    },
+    {
+        "school": "Georgia Tech",
+        "logoPath": "logos/Georgia Tech.png",
+        "conference": "",
+        "id": "georgia-tech"
+    },
+    {
+        "school": "Hawai'i",
+        "logoPath": "logos/Hawai'i.png",
+        "conference": "",
+        "id": "hawai'i"
+    },
+    {
+        "school": "Houston",
+        "logoPath": "logos/Houston.png",
+        "conference": "",
+        "id": "houston"
+    },
+    {
+        "school": "Illinois",
+        "logoPath": "logos/Illinois.png",
+        "conference": "",
+        "id": "illinois"
+    },
+    {
+        "school": "Indiana",
+        "logoPath": "logos/Indiana.png",
+        "conference": "",
+        "id": "indiana"
+    },
+    {
+        "school": "Iowa",
+        "logoPath": "logos/Iowa.png",
+        "conference": "",
+        "id": "iowa"
+    },
+    {
+        "school": "Iowa State",
+        "logoPath": "logos/Iowa State.png",
+        "conference": "",
+        "id": "iowa-state"
+    },
+    {
+        "school": "James Madison",
+        "logoPath": "logos/James Madison.png",
+        "conference": "",
+        "id": "james-madison"
+    },
+    {
+        "school": "Kansas",
+        "logoPath": "logos/Kansas.png",
+        "conference": "",
+        "id": "kansas"
+    },
+    {
+        "school": "Kansas State",
+        "logoPath": "logos/Kansas State.png",
+        "conference": "",
+        "id": "kansas-state"
+    },
+    {
+        "school": "Kent State",
+        "logoPath": "logos/Kent State.png",
+        "conference": "",
+        "id": "kent-state"
+    },
+    {
+        "school": "Kentucky",
+        "logoPath": "logos/Kentucky.png",
+        "conference": "",
+        "id": "kentucky"
+    },
+    {
+        "school": "Liberty",
+        "logoPath": "logos/Liberty.png",
+        "conference": "",
+        "id": "liberty"
+    },
+    {
+        "school": "Louisiana",
+        "logoPath": "logos/Louisiana.png",
+        "conference": "",
+        "id": "louisiana"
+    },
+    {
+        "school": "Louisiana Monroe",
+        "logoPath": "logos/Louisiana Monroe.png",
+        "conference": "",
+        "id": "louisiana-monroe"
+    },
+    {
+        "school": "Louisiana Tech",
+        "logoPath": "logos/Louisiana Tech.png",
+        "conference": "",
+        "id": "louisiana-tech"
+    },
+    {
+        "school": "Louisville",
+        "logoPath": "logos/Louisville.png",
+        "conference": "",
+        "id": "louisville"
+    },
+    {
+        "school": "LSU",
+        "logoPath": "logos/LSU.png",
+        "conference": "",
+        "id": "lsu"
+    },
+    {
+        "school": "Marshall",
+        "logoPath": "logos/Marshall.png",
+        "conference": "",
+        "id": "marshall"
+    },
+    {
+        "school": "Maryland",
+        "logoPath": "logos/Maryland.png",
+        "conference": "",
+        "id": "maryland"
+    },
+    {
+        "school": "Memphis",
+        "logoPath": "logos/Memphis.png",
+        "conference": "",
+        "id": "memphis"
+    },
+    {
+        "school": "Miami",
+        "logoPath": "logos/Miami.png",
+        "conference": "",
+        "id": "miami"
+    },
+    {
+        "school": "Miami (OH)",
+        "logoPath": "logos/Miami (OH).png",
+        "conference": "",
+        "id": "miami-(oh)"
+    },
+    {
+        "school": "Michigan",
+        "logoPath": "logos/Michigan.png",
+        "conference": "",
+        "id": "michigan"
+    },
+    {
+        "school": "Michigan State",
+        "logoPath": "logos/Michigan State.png",
+        "conference": "",
+        "id": "michigan-state"
+    },
+    {
+        "school": "Middle Tennessee",
+        "logoPath": "logos/Middle Tennessee.png",
+        "conference": "",
+        "id": "middle-tennessee"
+    },
+    {
+        "school": "Minnesota",
+        "logoPath": "logos/Minnesota.png",
+        "conference": "",
+        "id": "minnesota"
+    },
+    {
+        "school": "Mississippi State",
+        "logoPath": "logos/Mississippi State.png",
+        "conference": "",
+        "id": "mississippi-state"
+    },
+    {
+        "school": "Missouri",
+        "logoPath": "logos/Missouri.png",
+        "conference": "",
+        "id": "missouri"
+    },
+    {
+        "school": "Navy",
+        "logoPath": "logos/Navy.png",
+        "conference": "",
+        "id": "navy"
+    },
+    {
+        "school": "NC State",
+        "logoPath": "logos/NC State.png",
+        "conference": "",
+        "id": "nc-state"
+    },
+    {
+        "school": "Nebraska",
+        "logoPath": "logos/Nebraska.png",
+        "conference": "",
+        "id": "nebraska"
+    },
+    {
+        "school": "Nevada",
+        "logoPath": "logos/Nevada.png",
+        "conference": "",
+        "id": "nevada"
+    },
+    {
+        "school": "New Mexico",
+        "logoPath": "logos/New Mexico.png",
+        "conference": "",
+        "id": "new-mexico"
+    },
+    {
+        "school": "New Mexico State",
+        "logoPath": "logos/New Mexico State.png",
+        "conference": "",
+        "id": "new-mexico-state"
+    },
+    {
+        "school": "North Carolina",
+        "logoPath": "logos/North Carolina.png",
+        "conference": "",
+        "id": "north-carolina"
+    },
+    {
+        "school": "Northern Illinois",
+        "logoPath": "logos/Northern Illinois.png",
+        "conference": "",
+        "id": "northern-illinois"
+    },
+    {
+        "school": "North Texas",
+        "logoPath": "logos/North Texas.png",
+        "conference": "",
+        "id": "north-texas"
+    },
+    {
+        "school": "Northwestern",
+        "logoPath": "logos/Northwestern.png",
+        "conference": "",
+        "id": "northwestern"
+    },
+    {
+        "school": "Notre Dame",
+        "logoPath": "logos/Notre Dame.png",
+        "conference": "",
+        "id": "notre-dame"
+    },
+    {
+        "school": "Ohio",
+        "logoPath": "logos/Ohio.png",
+        "conference": "",
+        "id": "ohio"
+    },
+    {
+        "school": "Ohio State",
+        "logoPath": "logos/Ohio State.png",
+        "conference": "",
+        "id": "ohio-state"
+    },
+    {
+        "school": "Oklahoma",
+        "logoPath": "logos/Oklahoma.png",
+        "conference": "",
+        "id": "oklahoma"
+    },
+    {
+        "school": "Oklahoma State",
+        "logoPath": "logos/Oklahoma State.png",
+        "conference": "",
+        "id": "oklahoma-state"
+    },
+    {
+        "school": "Old Dominion",
+        "logoPath": "logos/Old Dominion.png",
+        "conference": "",
+        "id": "old-dominion"
+    },
+    {
+        "school": "Ole Miss",
+        "logoPath": "logos/Ole Miss.png",
+        "conference": "",
+        "id": "ole-miss"
+    },
+    {
+        "school": "Oregon",
+        "logoPath": "logos/Oregon.png",
+        "conference": "",
+        "id": "oregon"
+    },
+    {
+        "school": "Oregon State",
+        "logoPath": "logos/Oregon State.png",
+        "conference": "",
+        "id": "oregon-state"
+    },
+    {
+        "school": "Penn State",
+        "logoPath": "logos/Penn State.png",
+        "conference": "",
+        "id": "penn-state"
+    },
+    {
+        "school": "Pittsburgh",
+        "logoPath": "logos/Pittsburgh.png",
+        "conference": "",
+        "id": "pittsburgh"
+    },
+    {
+        "school": "Purdue",
+        "logoPath": "logos/Purdue.png",
+        "conference": "",
+        "id": "purdue"
+    },
+    {
+        "school": "Rice",
+        "logoPath": "logos/Rice.png",
+        "conference": "",
+        "id": "rice"
+    },
+    {
+        "school": "Rutgers",
+        "logoPath": "logos/Rutgers.png",
+        "conference": "",
+        "id": "rutgers"
+    },
+    {
+        "school": "San Diego State",
+        "logoPath": "logos/San Diego State.png",
+        "conference": "",
+        "id": "san-diego-state"
+    },
+    {
+        "school": "San José State",
+        "logoPath": "logos/San José State.png",
+        "conference": "",
+        "id": "san-josé-state"
+    },
+    {
+        "school": "SMU",
+        "logoPath": "logos/SMU.png",
+        "conference": "",
+        "id": "smu"
+    },
+    {
+        "school": "South Alabama",
+        "logoPath": "logos/South Alabama.png",
+        "conference": "",
+        "id": "south-alabama"
+    },
+    {
+        "school": "South Carolina",
+        "logoPath": "logos/South Carolina.png",
+        "conference": "",
+        "id": "south-carolina"
+    },
+    {
+        "school": "Southern Mississippi",
+        "logoPath": "logos/Southern Mississippi.png",
+        "conference": "",
+        "id": "southern-mississippi"
+    },
+    {
+        "school": "South Florida",
+        "logoPath": "logos/South Florida.png",
+        "conference": "",
+        "id": "south-florida"
+    },
+    {
+        "school": "Stanford",
+        "logoPath": "logos/Stanford.png",
+        "conference": "",
+        "id": "stanford"
+    },
+    {
+        "school": "Syracuse",
+        "logoPath": "logos/Syracuse.png",
+        "conference": "",
+        "id": "syracuse"
+    },
+    {
+        "school": "TCU",
+        "logoPath": "logos/TCU.png",
+        "conference": "",
+        "id": "tcu"
+    },
+    {
+        "school": "Temple",
+        "logoPath": "logos/Temple.png",
+        "conference": "",
+        "id": "temple"
+    },
+    {
+        "school": "Tennessee",
+        "logoPath": "logos/Tennessee.png",
+        "conference": "",
+        "id": "tennessee"
+    },
+    {
+        "school": "Texas",
+        "logoPath": "logos/Texas.png",
+        "conference": "",
+        "id": "texas"
+    },
+    {
+        "school": "Texas A&M",
+        "logoPath": "logos/Texas A&M.png",
+        "conference": "",
+        "id": "texas-a&m"
+    },
+    {
+        "school": "Texas State",
+        "logoPath": "logos/Texas State.png",
+        "conference": "",
+        "id": "texas-state"
+    },
+    {
+        "school": "Texas Tech",
+        "logoPath": "logos/Texas Tech.png",
+        "conference": "",
+        "id": "texas-tech"
+    },
+    {
+        "school": "Toledo",
+        "logoPath": "logos/Toledo.png",
+        "conference": "",
+        "id": "toledo"
+    },
+    {
+        "school": "Troy",
+        "logoPath": "logos/Troy.png",
+        "conference": "",
+        "id": "troy"
+    },
+    {
+        "school": "Tulane",
+        "logoPath": "logos/Tulane.png",
+        "conference": "",
+        "id": "tulane"
+    },
+    {
+        "school": "Tulsa",
+        "logoPath": "logos/Tulsa.png",
+        "conference": "",
+        "id": "tulsa"
+    },
+    {
+        "school": "UAB",
+        "logoPath": "logos/UAB.png",
+        "conference": "",
+        "id": "uab"
+    },
+    {
+        "school": "UCF",
+        "logoPath": "logos/UCF.png",
+        "conference": "",
+        "id": "ucf"
+    },
+    {
+        "school": "UCLA",
+        "logoPath": "logos/UCLA.png",
+        "conference": "",
+        "id": "ucla"
+    },
+    {
+        "school": "UMass",
+        "logoPath": "logos/UMass.png",
+        "conference": "",
+        "id": "umass"
+    },
+    {
+        "school": "UNLV",
+        "logoPath": "logos/UNLV.png",
+        "conference": "",
+        "id": "unlv"
+    },
+    {
+        "school": "USC",
+        "logoPath": "logos/USC.png",
+        "conference": "",
+        "id": "usc"
+    },
+    {
+        "school": "Utah",
+        "logoPath": "logos/Utah.png",
+        "conference": "",
+        "id": "utah"
+    },
+    {
+        "school": "Utah State",
+        "logoPath": "logos/Utah State.png",
+        "conference": "",
+        "id": "utah-state"
+    },
+    {
+        "school": "UTEP",
+        "logoPath": "logos/UTEP.png",
+        "conference": "",
+        "id": "utep"
+    },
+    {
+        "school": "UT San Antonio",
+        "logoPath": "logos/UT San Antonio.png",
+        "conference": "",
+        "id": "ut-san-antonio"
+    },
+    {
+        "school": "Vanderbilt",
+        "logoPath": "logos/Vanderbilt.png",
+        "conference": "",
+        "id": "vanderbilt"
+    },
+    {
+        "school": "Virginia",
+        "logoPath": "logos/Virginia.png",
+        "conference": "",
+        "id": "virginia"
+    },
+    {
+        "school": "Virginia Tech",
+        "logoPath": "logos/Virginia Tech.png",
+        "conference": "",
+        "id": "virginia-tech"
+    },
+    {
+        "school": "Wake Forest",
+        "logoPath": "logos/Wake Forest.png",
+        "conference": "",
+        "id": "wake-forest"
+    },
+    {
+        "school": "Washington",
+        "logoPath": "logos/Washington.png",
+        "conference": "",
+        "id": "washington"
+    },
+    {
+        "school": "Washington State",
+        "logoPath": "logos/Washington State.png",
+        "conference": "",
+        "id": "washington-state"
+    },
+    {
+        "school": "Western Kentucky",
+        "logoPath": "logos/Western Kentucky.png",
+        "conference": "",
+        "id": "western-kentucky"
+    },
+    {
+        "school": "Western Michigan",
+        "logoPath": "logos/Western Michigan.png",
+        "conference": "",
+        "id": "western-michigan"
+    },
+    {
+        "school": "West Virginia",
+        "logoPath": "logos/West Virginia.png",
+        "conference": "",
+        "id": "west-virginia"
+    },
+    {
+        "school": "Wisconsin",
+        "logoPath": "logos/Wisconsin.png",
+        "conference": "",
+        "id": "wisconsin"
+    },
+    {
+        "school": "Wyoming",
+        "logoPath": "logos/Wyoming.png",
+        "conference": "",
+        "id": "wyoming"
+    }
+]

@@ -22,6 +22,7 @@ function csvToArray(csvFile) {
         const logoPath = 'logos/' + school.replace(/\s+/g, ' ') + '.png';
         obj['logoPath'] = logoPath;
         obj['conference'] = '';
+        obj['id'] = school.toLowerCase().replace(/\s+/g, '-');
         dataArray.push(obj);
     }
 
@@ -31,4 +32,4 @@ function csvToArray(csvFile) {
 let fbsTeams = csvToArray('src/logo_ref.csv');
 console.log(fbsTeams);
 const jsonContent = JSON.stringify(fbsTeams);
-fs.writeFileSync('fbsTeams.json', jsonContent);
+fs.writeFileSync('fbsTeams1.json', jsonContent);
