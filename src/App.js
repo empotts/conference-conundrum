@@ -5,8 +5,12 @@ import fbsTeams from "./fbsTeams.json";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import Team from "./components/team";
 
-function App() {
-  const [teams, setTeams] = useState(fbsTeams);
+
+const getItemStyle = (isDragging, draggableStyle) => ({
+  // some basic styles to make the items look a bit nicer
+  userSelect: "none",
+  padding: grid * 2,
+  margin: `0 0 ${grid}px 0`,
 
   const handleOnDragEnd = (result) => {
     if (!result.destination) return;
@@ -55,6 +59,7 @@ function App() {
           )}
         </Droppable>
       </DragDropContext>
+
     </div>
   );
 }
