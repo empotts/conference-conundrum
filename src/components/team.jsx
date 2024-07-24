@@ -1,5 +1,6 @@
-import React from 'react';
-import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
+import { Draggable } from "react-beautiful-dnd";
+import PropTypes from 'prop-types';
+
 
 
 function Team(props) {
@@ -16,7 +17,7 @@ function Team(props) {
             >
               <div className="team-thumb mr-2">
                 <img
-                  src={props.school.logoPath ? "/" + props.school.logoPath : "/"}
+                  src={`./logos/${props.school.school}.png`}
                   style={{ width: "40px", height: "40px" }}
                   alt={`${props.school.school} Thumb`}
                 />
@@ -28,5 +29,13 @@ function Team(props) {
       </div>
     );
 }
+
+Team.propTypes = {
+  id: PropTypes.string.isRequired,
+  index: PropTypes.number.isRequired,
+  school: PropTypes.shape({
+      school: PropTypes.string.isRequired
+  }).isRequired
+};
 
 export default Team;

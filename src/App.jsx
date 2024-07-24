@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import teams from "./grouped_teams.json";
-import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
-import Team from "./components/team";
+import { DragDropContext, Droppable } from "react-beautiful-dnd";
+import Team from "./components/Team";
 
 const teams_array = Object.values(teams).map((conference) =>
   Object.values(conference)
@@ -32,7 +32,7 @@ const move = (source, destination, droppableSource, droppableDestination) => {
   return result;
 };
 
-function QuoteApp() {
+function App() {
   const [state, setState] = useState(teams_array);
 
   function onDragEnd(result) {
@@ -74,7 +74,7 @@ function QuoteApp() {
         <DragDropContext onDragEnd={onDragEnd}>
           {state.map((el, ind) => (
             <Droppable key={ind} droppableId={`${ind}`}>
-              {(provided, snapshot) => (
+              {(provided) => (
                 <div {...provided.droppableProps} ref={provided.innerRef}>
                   {el.map((item, index) => (
                     <Team
@@ -95,4 +95,4 @@ function QuoteApp() {
   );
 }
 
-export default QuoteApp;
+export default App;
