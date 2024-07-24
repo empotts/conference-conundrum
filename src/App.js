@@ -1,62 +1,98 @@
-import logo from "./logo.svg";
-import "./App.css";
 import React, { useState } from "react";
-import fbsTeams from "./fbsTeams.json";
+import teams from "./grouped_teams.json";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import Team from "./components/team";
 
-function App() {
-  const [teams, setTeams] = useState(fbsTeams);
+const teams_array = Object.values(teams).map((conference) =>
+  Object.values(conference)
+);
 
-  const handleOnDragEnd = (result) => {
-    if (!result.destination) return;
-    const items = Array.from(teams);
-    const [reorderedItem] = items.splice(result.source.index, 1);
-    items.splice(result.destination.index, 0, reorderedItem);
-    setTeams(items);
-  };
+const reorder = (list, startIndex, endIndex) => {
+  const result = Array.from(list);
+  const [removed] = result.splice(startIndex, 1);
+  result.splice(endIndex, 0, removed);
+
+  return result;
+};
+
+/**
+ * Moves an item from one list to another list.
+ */
+const move = (source, destination, droppableSource, droppableDestination) => {
+  const sourceClone = Array.from(source);
+  const destClone = Array.from(destination);
+  const [removed] = sourceClone.splice(droppableSource.index, 1);
+
+  destClone.splice(droppableDestination.index, 0, removed);
+
+  const result = {};
+  result[droppableSource.droppableId] = sourceClone;
+  result[droppableDestination.droppableId] = destClone;
+
+  return result;
+};
+
+function QuoteApp() {
+  const [state, setState] = useState(teams_array);
+
+  function onDragEnd(result) {
+    const { source, destination } = result;
+
+    if (!destination) {
+      return;
+    }
+    const sInd = +source.droppableId;
+    const dInd = +destination.droppableId;
+
+    if (sInd === dInd) {
+      const items = reorder(state[sInd], source.index, destination.index);
+      const newState = [...state];
+      newState[sInd] = items;
+      setState(newState);
+    } else {
+      const result = move(state[sInd], state[dInd], source, destination);
+      const newState = [...state];
+      newState[sInd] = result[sInd];
+      newState[dInd] = result[dInd];
+
+      setState(newState.filter((group) => group.length));
+    }
+  }
 
   return (
-    <div className="App">
-      <h1>FBS Teams</h1>
-      <DragDropContext onDragEnd={handleOnDragEnd}>
-        <Droppable droppableId="teams">
-          {(provided) => (
-            <ul
-              className="teams"
-              {...provided.droppableProps}
-              ref={provided.innerRef}
-            >
-              <Team id="1" school="Alabama" logoPath="../logos/alabama.png" />
-              {teams.map(({ school, logoPath, id }, index) => {
-                return (
-                  <Draggable key={id} draggableId={id} index={index}>
-                    {(provided) => (
-                      <li
-                        id={id}
-                        ref={provided.innerRef}
-                        {...provided.draggableProps}
-                        {...provided.dragHandleProps}
-                      >
-                        <div className="team-thumb">
-                          <img
-                            src={logoPath ? "/" + logoPath : "/"}
-                            alt={`${school} Thumb`}
-                          />
-                        </div>
-                        <p>{school}</p>
-                      </li>
-                    )}
-                  </Draggable>
-                );
-              })}
-              {provided.placeholder}
-            </ul>
-          )}
-        </Droppable>
-      </DragDropContext>
+    <div>
+      <button
+        type="button"
+        onClick={() => {
+          setState([...state, []]);
+        }}
+      >
+        Add new group
+      </button>
+
+      <div style={{ display: "flex" }}>
+        <DragDropContext onDragEnd={onDragEnd}>
+          {state.map((el, ind) => (
+            <Droppable key={ind} droppableId={`${ind}`}>
+              {(provided, snapshot) => (
+                <div {...provided.droppableProps} ref={provided.innerRef}>
+                  {el.map((item, index) => (
+                    <Team
+                      id={item.id}
+                      school={item}
+                      index={index}
+                      key={item.id}
+                    />
+                  ))}
+                  {provided.placeholder}
+                </div>
+              )}
+            </Droppable>
+          ))}
+        </DragDropContext>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default QuoteApp;
