@@ -1,8 +1,9 @@
-# React + Vite
+# Conference Conundrum 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WIP
 
-Currently, two official plugins are available:
+This is a college football confernce realignment simulator.
+It currently includes all FBS teams and has a toggle to only show Power 4 schools. 
+Enjoy!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://empotts.github.io/conference-conundrum/
