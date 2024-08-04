@@ -101,7 +101,7 @@
     },
     {
       "school": "SMU",
-      "type": "G5",
+      "type": "P5",
       "color": "#E32F38",
       "alt_color": "#ecdcb9",
       "logoPath": "SMU.png",
@@ -193,7 +193,7 @@
     },
     {
       "school": "Cincinnati",
-      "type": "G5",
+      "type": "P5",
       "color": "#000000",
       "alt_color": "#717073",
       "logoPath": "Cincinnati.png",
@@ -211,7 +211,7 @@
     },
     {
       "school": "Houston",
-      "type": "G5",
+      "type": "P5",
       "color": "#C90822",
       "alt_color": "#231f20",
       "logoPath": "Houston.png",
@@ -274,7 +274,7 @@
     },
     {
       "school": "UCF",
-      "type": "G5",
+      "type": "P5",
       "color": "#000000",
       "alt_color": "#231f20",
       "logoPath": "UCF.png",
@@ -630,7 +630,26 @@
       "conference": "SEC"
     }
   ],
-
+  "Independents (FBS)": [
+    {
+      "school": "Connecticut",
+      "type": "G5",
+      "color": "#001d40",
+      "alt_color": "#f1f2f3",
+      "logoPath": "Connecticut.png",
+      "id": "connecticut",
+      "conference": "Independents (FBS)"
+    },
+    {
+      "school": "Notre Dame",
+      "type": "P5",
+      "color": "#00122b",
+      "alt_color": "#ae9142",
+      "logoPath": "Notre Dame.png",
+      "id": "notre-dame",
+      "conference": "Independents (FBS)"
+    }
+  ],
   "AAC": [
     {
       "school": "Army",
@@ -850,26 +869,6 @@
       "logoPath": "Western Kentucky.png",
       "id": "western-kentucky",
       "conference": "Conference USA"
-    }
-  ],
-  "Independents (FBS)": [
-    {
-      "school": "Connecticut",
-      "type": "G5",
-      "color": "#001d40",
-      "alt_color": "#f1f2f3",
-      "logoPath": "Connecticut.png",
-      "id": "connecticut",
-      "conference": "Independents (FBS)"
-    },
-    {
-      "school": "Notre Dame",
-      "type": "P5",
-      "color": "#00122b",
-      "alt_color": "#ae9142",
-      "logoPath": "Notre Dame.png",
-      "id": "notre-dame",
-      "conference": "Independents (FBS)"
     }
   ],
   "MAC": [

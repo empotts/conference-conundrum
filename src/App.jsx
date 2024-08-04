@@ -1,8 +1,7 @@
 import { React, useState } from "react";
 import teams from "./grouped_teams.json";
-import { DragDropContext } from "@hello-pangea/dnd"
+import { DragDropContext } from "@hello-pangea/dnd";
 import Conference from "./components/Conference";
-
 
 const teams_array = Object.values(teams).map((conference) =>
   Object.values(conference)
@@ -15,9 +14,6 @@ const reorder = (list, startIndex, endIndex) => {
 
   return result;
 };
-
-
-
 
 const move = (source, destination, droppableSource, droppableDestination) => {
   const sourceClone = Array.from(source);
@@ -57,7 +53,7 @@ function App() {
       newState[sInd] = result[sInd];
       newState[dInd] = result[dInd];
 
-      setState(newState.filter((group) => group.length));
+      setState(newState);
     }
   }
 
@@ -67,45 +63,50 @@ function App() {
 
   const filteredState = includeG5
     ? state
-    : state.map(group => group.filter(team => team.type !== 'G5'));
+    : state.map((group) => group.filter((team) => team.type !== "G5"));
 
   return (
     <div className="flex-col">
       <div className="flex-row items-center">
-      <button
-        type="button"
-        onClick={() => {
-          setState([...state, []]);
-        }}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-1"
-      >
-        Add Conference
-      </button>
-      
-      <button
-        type="button"
-        onClick={() => {
-          setState(teams_array);
-        }}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-1"
-      >
-        Reset
-      </button>
-      <label className=" mb-4 m-1">
-        <input
-          type="checkbox"
-          checked={includeG5}
-          onChange={handleIncludeG5Change}
-          className="mr-2"
-        />
-        Include G5 Teams
-      </label>
+        <button
+          type="button"
+          onClick={() => {
+            setState([...state, []]);
+          }}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-1"
+        >
+          Add Conference
+        </button>
+
+        <button
+          type="button"
+          onClick={() => {
+            setState(teams_array);
+          }}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-1"
+        >
+          Reset
+        </button>
+        <label className=" mb-4 m-1">
+          <input
+            type="checkbox"
+            checked={includeG5}
+            onChange={handleIncludeG5Change}
+            className="mr-2"
+          />
+          Include G5 Teams
+        </label>
       </div>
 
       <div className="flex">
         <DragDropContext onDragEnd={onDragEnd}>
           {filteredState.map((el, ind) => (
-           <Conference key={ind} droppableKey={ind} teams={el} />
+            <Conference
+              key={ind}
+              droppableKey={ind}
+              teams={el}
+              includeG5={includeG5}
+            />
           ))}
         </DragDropContext>
       </div>
